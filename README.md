@@ -1,14 +1,19 @@
-# VCSDFS
-This is the implementation code for VCSDFS (Unsupervised Feature Selection Based on Variance-Covariance Subspace Distance).
+## VCSDFS
+This is a sample implementation code for VCSDFS (Unsupervised Feature Selection Based on Variance-Covariance Subspace Distance).
 
 please cite the following reference: 
 
 [1] S. Karami, F. Saberi-Movahed, P. Tiwari, P. Marttinen, S. Vahdati, "Unsupervised Feature Selection Based on Variance-Covariance Subspace Distance," Accepted in Neural Networks,
 vol. , no. , pp. , June 2023, doi: .
 
+## Requirements:
+MATLAB 
+
+## Usage:
+Run VCSDFS.m with MATLAB.
 
 
-BibTeX：
+## BibTeX：
 
 
 @ARTICLE{VCSDFS,
