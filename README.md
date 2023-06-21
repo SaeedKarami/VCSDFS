@@ -10,7 +10,8 @@ vol. , no. , pp. , June 2023, doi: .
 MATLAB 
 
 ## Usage:
-Run VCSDFS.m with MATLAB.
+Run demo.m with MATLAB.
+
 
 
 ## BibTeX：
