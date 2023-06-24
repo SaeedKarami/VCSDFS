@@ -1,17 +1,16 @@
 function [W,index,obj] = VCSDFS(X,XX,XXX,rho,k,NITER)
 %% [1] S. Karami, F. Saberi-Movahed, P. Tiwari, P. Marttinen, S. Vahdati,
 %"Unsupervised Feature Selection Based on Variance-Covariance Subspace Distance,"
-% Accepted in Neural Networks,
-% vol. , no. , pp. , June 2023, doi:.
+% Accepted in Neural Networks,   2023, https://doi.org/10.1016/j.neunet.2023.06.018.
 %
-%--------------------------- Inputs ------------------------------------------------------------------------------
+%-------------------------------------------------- Inputs -----------------------------------------------------
 %      X: Data matrix in R^(n*d), where n and d are the number of samples and features, respectively.
 %      XX = (X')*X;
 %      XXX = (XX)^2;
 %      rho: Regularization parameter........>Please note that this parameter needs to be tuned.
 %      k:   The number of selected features.
 %      Niter: Maximum number of iterations.
-%--------------------------- Outputs------------------------------------------------------------------------------
+%-------------------------------------------------- Outputs-------------------------------------------------------
 %      W: Feature weight matrix in in R^(d*k).
 %      index: the sort of features for selection.
 %      obj: the vector of objective function values.
